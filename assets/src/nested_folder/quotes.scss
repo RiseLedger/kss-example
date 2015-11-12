@@ -1,0 +1,12 @@
+// Quote
+//
+// Your standard style for quotes
+//
+// Markup:
+// <blockquote class="{{modifier_class}}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quaerat, in labore nihil neque, consequatur commodi repellat recusandae, sint atque mollitia non facilis natus vero illum! Architecto qui sit velit!</blockquote>
+//
+// .dark - A dark version of the quote
+//
+// Styleguide 3
+blockquote {border: 5px solid #1abc9c;border-radius: 5px;padding: 10px 15px}
+blockquote.dark {background:#000;color:#fff}

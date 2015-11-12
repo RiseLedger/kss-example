@@ -1,0 +1,28 @@
+// Button
+//
+// Your standard button suitable for clicking.
+//
+// Markup:
+// <a class="button {{modifier_class}}">Button</a>
+//
+// :hover    - Highlights when hovering.
+// :disabled - Dims the button when disabled.
+// .smaller  - A little bit smaller now.
+//
+// Styleguide 1
+.button {
+  padding: 5px 10px;
+  background: #3d556d;
+  color: #fff;
+  border: 1px solid #d6d6d6;
+
+  &.smaller {
+    padding: 2px 5px;
+  }
+  &:hover {
+    background: #2c3e50;
+  }
+  &:disabled {
+    background: #d6d6d6;
+  }
+}
